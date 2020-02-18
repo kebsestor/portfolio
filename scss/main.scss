@@ -25,6 +25,8 @@ $theme-colors : (
 
 body{
 	background-color: black;
+		// background-image: url("../images/1.png");
+
 }
 
 // .yourElement {
@@ -62,13 +64,46 @@ width: 100%;
 .bantext {
 	font-size: 40px;
 }
+
+.bantext2 {
+	font-size: 30px;
+}
+
 html {
 	scroll-behavior: smooth;
 }
 
 #home {
 	min-height: 100vh;
+		// background: url("../images/1.png");
+
+	#me {
+		height: 450px;
+		width: 100%;
+		// object-fit: cover;
+		background-image: url("../images/anon.png");
+		background-position: center bottom;
+		background-size: 400px;
+		background-repeat: no-repeat;
+		// background-color: white;
+		// .me {
+		// 	height: 450px;
+		// 	width: 100%;
+		// 	object-fit: cover;
+		// }
+
+	}
+	
+	#me:hover {
+		background-image: url("../images/1.png");
+	}
+	#me:active {
+		background-image: url("../images/3.png");
+	}
+
+
 }
+
 
 // .home {
 // 	background-image: linear-gradient(to right, rgba(63, 48, 0, 0.50), rgba(208, 208, 208, 0.10), rgba(63, 48, 0, 0.50)), 
@@ -84,8 +119,8 @@ html {
 }
 
 .skillslogo {
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	// object-fit: cover;
 
 }
@@ -96,7 +131,7 @@ html {
 }
 
 .cap {
-	height: 250px;
+	height: 80%;
 	width: 100%;
 	padding: 20px;
 }

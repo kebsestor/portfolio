@@ -10605,6 +10605,10 @@ canvas {
   font-size: 40px;
 }
 
+.bantext2 {
+  font-size: 30px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10612,14 +10616,28 @@ html {
 #home {
   min-height: 100vh;
 }
+#home #me {
+  height: 450px;
+  width: 100%;
+  background-image: url("../images/anon.png");
+  background-position: center bottom;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+#home #me:hover {
+  background-image: url("../images/1.png");
+}
+#home #me:active {
+  background-image: url("../images/3.png");
+}
 
 #skillz {
   min-height: 100vh;
 }
 
 .skillslogo {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 #workz {
@@ -10627,7 +10645,7 @@ html {
 }
 
 .cap {
-  height: 250px;
+  height: 80%;
   width: 100%;
   padding: 20px;
 }

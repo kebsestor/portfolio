@@ -53,7 +53,7 @@
     }
 
     for(var i = 0; i < maxColums ; i++) {
-      fallingCharArr.push(new Point(i*fontSize,randomFloat(-550,0)));
+      fallingCharArr.push(new Point(i*fontSize,randomFloat(-1200,0)));
     }
 
 
@@ -82,7 +82,7 @@
 
   <!--
 var rows=1; // must be an odd number
-var speed=30; // lower is faster
+var speed=20; // lower is faster
 var reveal=2; // between 0 and 2 only. The higher, the faster the word appears
 var effectalign="center" //enter "center" to center it.
 
