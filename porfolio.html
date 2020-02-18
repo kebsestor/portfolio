@@ -3,113 +3,124 @@
 <head>
 <meta charset="UTF-8">
 
-<link rel="stylesheet" href="./assets/css/main.css"/>
 
 <!-- fav icon -->
 	<link rel="icon" type="image/gif/png" href="assets/images/b.png">
 
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Overlock+SC|Quicksand&display=swap" rel="stylesheet"> 
+<!-- fonts -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Overlock+SC|Quicksand&display=swap" rel="stylesheet">  -->
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Courgette|Overlock|Sorts+Mill+Goudy&display=swap" rel="stylesheet"> -->
+
+  <!-- font icons -->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./assets/css/animate.css">
+
+<link rel="stylesheet" href="./assets/css/main.css"/>
 
 <title>Portfolio</title>
 </head>
-	<body>
+	<body class="text-lightgreen">
 
 	<div class="landing">
-		<div class="banner">
-		<h1 class="bantext">Welcome</h1>
-		<a class="bantext" href="#home">mmmmm</a>
+			<!-- <h1 class="bantext">Welcome</h1> -->
+		<div class="banner text-center">
+			<div id="matrix">Welcome</div>
+			<a class="bantext animated infinite flash" href="#home"><i class="fas fa-chevron-down text-lightgreen"></i></a>
+		</div>
+
+		<canvas id="canvas">Canvas is not supported in your browser.</canvas>
+    <canvas id="canvas2">Canvas is not supported in your browser.</canvas>
+	</div>
+
+	<div class="home" id="home">
+
+
+	</div>
+
+	<div id="skillz" class="">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h3 class="mt-5">Technologies and Skills</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<div class="bg-green p-3">
+						<img class="skillslogo" src="./assets/images/skillslogo/html.png" alt="">
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<div class="bg-green p-3">
+
+					<img class="skillslogo" src="./assets/images/skillslogo/css.png" alt="">
+					</div>
+
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/js.png" alt="">
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/php.png" alt="">
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/bootstrap.png" alt="">
+				</div>			
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/sass.png" alt="">
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/laravel.png" alt="">
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/mysql.png" alt="">
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/mongodb.png" alt="">
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/expressjs.png" alt="">
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/react.png" alt="">
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
+					<img class="skillslogo" src="./assets/images/skillslogo/nodejs.png" alt="">
+				</div>
+
+			</div>
 		</div>
 	</div>
-<div class="home">
-	<div class = "containerss" id="home">
-		
-		<img id = "me" src="assets/images/me.png">
 
-		<h1 class="name">jhonn kevin estor</h1>
-		<h2 id>full stack web developer</h2>
-		<p class = "bio">
-			I am an anspiring Programmer, who can build or create my own applications
-			or websites, by continuing my passion through computer programming and coding.
-			I want to develop and apply all the knowledge from my experience, and eventually
-			share it to anyone who are willing to learn and inspire them someday.
-		</p>
-
-		<a href="#skillz" class="text-dark">Skills</a>	
-
-	</div>
-	<!-- end container -->
-</div>
-
-<div id="skillz" class="bg-white">
-	<div class="container ">
+	<div id="workz">
+		<div class="container">
 		<div class="row">
 			<div class="col-12 text-center">
-				<h3 class="mt-5">Technologies and Skills</h2>
+				<h3 class="mt-5">Works and Projects</h2>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/html.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/css.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/js.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/php.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/bootstrap.png" alt="">
-			</div>			
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/sass.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/laravel.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/mysql.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/mongodb.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/expressjs.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/react.png" alt="">
-			</div>
-			<div class="col-12 col-md-4 col-lg-4 p-5 text-center">
-				<img class="skillslogo" src="./assets/images/skillslogo/nodejs.png" alt="">
+		<div class="row mt-5">
+			<div class="col-12 col-md-4 col-lg-4 text-center">
+				<h4>Capstone 1</h4>
+				<a href="https://kebs.estor.gitlab.io/capstone1" target="_blank"><img class="cap" src="./assets/images/cap1.png" alt=""></a>
+			</div>		
+			<div class="col-12 col-md-4 col-lg-4 text-center">
+				<h4>Capstone 2</h4>
+				<a href="http://gun4hire.herokuapp.com/" target="_blank"><img class="cap" src="./assets/images/cap2.png" alt=""></a>
+			</div>		
+			<div class="col-12 col-md-4 col-lg-4 text-center">
+				<h4>Capstone 3</h4>
+				<a href="https://bookher.herokuapp.com/" target="_blank"><img class="cap" src="./assets/images/cap3.png" alt=""></a>
 			</div>
 		</div>
 	</div>
-</div>
+	</div>
+	
 
-<div class="workz">
-	<div class="row">
-		<div class="col-12 text-center">
-			<h3 class="mt-5">Works and Projects</h2>
-		</div>
-	</div>
-	<div class="row mt-5">
-		<div class="col-12 col-md-4 col-lg-4 text-center">
-			<h4>Capstone 1</h4>
-			<a href="https://kebs.estor.gitlab.io/capstone1" target="_blank"><img class="cap" src="./assets/images/cap1.png" alt=""></a>
-		</div>		
-		<div class="col-12 col-md-4 col-lg-4 text-center">
-			<h4>Capstone 2</h4>
-			<a href="http://gun4hire.herokuapp.com/" target="_blank"><img class="cap" src="./assets/images/cap2.png" alt=""></a>
-		</div>		
-		<div class="col-12 col-md-4 col-lg-4 text-center">
-			<h4>Capstone 3</h4>
-			<a href="https://bookher.herokuapp.com/" target="_blank"><img class="cap" src="./assets/images/cap3.png" alt=""></a>
-		</div>
-	</div>
-</div>
-		
+	<script src="./assets/js/script.js"></script>
 
 	</body>
 </html>

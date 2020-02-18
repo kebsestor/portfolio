@@ -1,5 +1,9 @@
 $theme-colors : (
-	
+	"white" : #e6f9fb,
+	"lightgreen" : #5ff385,
+	"green" : #446051,
+	"darkgreen" : #032804,
+	"black" : #0d0d0d
 );
 
 
@@ -14,8 +18,32 @@ $theme-colors : (
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;	
-	font-family: 'Overlock SC', cursive;
-	// color: #fcd766;
+	// font-family: 'Overlock SC', cursive;
+	font-family:Lucida Console, Courier, Monotype;
+	// width: 100%;
+}
+
+body{
+	background-color: black;
+}
+
+// .yourElement {
+//   animation-duration: 3s;
+//   animation-delay: 2s;
+//   animation-iteration-count: infinite;
+// }
+
+.matrix { font-family:Lucida Console, Courier, Monotype; font-size:30pt; text-align:center; width:30px; padding:0px; margin:0px;}
+
+
+
+canvas {
+display: block;
+position:absolute;
+top:0;
+left:0;
+z-index: -1;
+width: 100%;
 }
 
 .landing {
@@ -32,108 +60,43 @@ $theme-colors : (
 }
 
 .bantext {
-	color: black;
+	font-size: 40px;
 }
 html {
 	scroll-behavior: smooth;
 }
 
-body {
-
-	/*background-color: skyblue;*/
-	/*background-image: url("../images/bg.jpg");*/
-
-	height: 100vh;
-}
-
 #home {
 	min-height: 100vh;
-	color :lightblue;
 }
 
-/*targets the element with the class name container*/
-.containerss {
-	width: 500px;
-	margin: 0 auto;
-	text-align: center;
+// .home {
+// 	background-image: linear-gradient(to right, rgba(63, 48, 0, 0.50), rgba(208, 208, 208, 0.10), rgba(63, 48, 0, 0.50)), 
+// 	url("../images/bg.jpg");
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// }
 
 
-}
-/*end container*/
-
-.home {
-	background-image: linear-gradient(to right, rgba(63, 48, 0, 0.50), rgba(208, 208, 208, 0.10), rgba(63, 48, 0, 0.50)), 
-	url("../images/bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/* targets the html element h1 */
-.name{
-	color: #dca700; /*this changes the font color of the h1 element*/
-	background-color: rgba(63, 48, 0, 0.8); /*off black*/
-	text-transform: uppercase;
-	font-size: 38px;
-	letter-spacing: 1px;
-	font-family: 'Overlock SC', cursive;
-	margin-bottom: 15px;
-	border-radius: 10px;
-	text-shadow: 4px 4px 5px #000000;	
-}
-/* end of h1 styling */
 
 #skillz {
 	min-height: 100vh;
 }
 
-/*start of h2 styling*/
-h2 {
-	color: indianred;
-	background-color: rgba(63, 48, 0, 0.8);
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
-	padding: 10px;
-	border-radius: 10px;
-	font-family: 'Quicksand', sans-serif;
-}
-/*end of h2 styling*/
-
-/* targets the html element with the class attribute bio*/
-.bio {
-	font-size: 18px;
-	line-height: 22px;
-	background-color: rgba(51, 51, 51, 0.5);
-}
-/*end of bio*/
-
-/* targets the html attribute id with a value me*/
-#me {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	border-width: 5px;
-	border-color: #3f3000;
-	border-style: solid;
-	margin-top: 50px;
-	margin-bottom: 25px;
-
-}
-
-/*end of me*/
-
 .skillslogo {
 	width: 100px;
 	height: 100px;
 	// object-fit: cover;
+
 }
 
-.workz {
+#workz {
 	min-height: 100vh;
+	// width: 100%;
 }
 
 .cap {
-	height: 300px;
+	height: 250px;
 	width: 100%;
 	padding: 20px;
 }
