@@ -10626,6 +10626,10 @@ html {
 }
 #home #me:hover {
   background-image: url("../images/1.png");
+  transition: 0.3s ease-out;
+}
+#home #me:not(hover) {
+  transition: 0.3s ease-out;
 }
 #home #me:active {
   background-image: url("../images/3.png");
@@ -10641,13 +10645,31 @@ html {
 }
 
 #workz {
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 .cap {
-  height: 80%;
+  height: 250px;
   width: 100%;
-  padding: 20px;
+  border-radius: 3px;
+}
+
+.proj a:hover .cap {
+  transform: scale(1.1);
+  transition: 0.5s ease-out;
+}
+
+#contactz {
+  min-height: 40vh;
+}
+
+.contacts {
+  text-decoration: none;
+  font-family: Lucida Console, Courier, Monotype;
+}
+
+.contacts:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -96,6 +96,12 @@ html {
 	
 	#me:hover {
 		background-image: url("../images/1.png");
+		transition: .3s ease-out;
+
+	}
+	#me:not(hover) {
+		transition: .3s ease-out;
+
 	}
 	#me:active {
 		background-image: url("../images/3.png");
@@ -126,15 +132,57 @@ html {
 }
 
 #workz {
-	min-height: 100vh;
+	min-height: 60vh;
 	// width: 100%;
 }
 
 .cap {
-	height: 80%;
-	width: 100%;
-	padding: 20px;
+  height: 250px;
+  width: 100%;
+  // object-fit: cover;
+  // overflow: hidden;
+  border-radius: 3px;
+  // display: block;
 }
+
+.proj a:hover .cap{
+
+	transform: scale(1.1);
+  	transition: .5s ease-out;
+
+
+}
+
+#contactz {
+	min-height: 40vh;
+}
+
+
+.contacts {
+	text-decoration: none;
+	font-family:Lucida Console, Courier, Monotype;
+}
+
+.contacts:hover {
+	text-decoration: none;
+}
+
+
+
+
+// .imagezhighlights {
+//   height: 300px;
+//   width: 100%;
+//   object-fit: cover;
+//   overflow: hidden;
+//   border-radius: 3px;
+// }
+
+// .imghov a:hover .imagezhighlights{
+//   transform: scale(1.1);
+//   transition: .5s ease-out;
+// }
+
 
 
 
